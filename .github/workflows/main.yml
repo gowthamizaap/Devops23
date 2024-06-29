@@ -1,0 +1,10 @@
+name: Hello World
+
+on: push
+
+jobs:
+  print_hello_world:
+    runs-on: centos-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, World!"
